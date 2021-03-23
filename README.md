@@ -1,6 +1,6 @@
 # 2-kodutoo
 
-2. kodutöö Eesrakenduste arendamises.
+2. kodutöö Eesrakenduste arendamises
 
 ## Tähtaeg 05.04.2021 23:59
 
