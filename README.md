@@ -18,8 +18,8 @@ Kõik resurssi allikad on mängu veebilehel. Mõned joonistasin ise (raudkang).
 
 ### Pildid
 
-![Desktop](preview/desktop_tutorial.png "Desktop")
+![Desktop](preview/desktop_preview.png "Desktop")
 ![Desktop mäng](preview/desktop_game.png "Desktop")
 ![Edetabel](preview/scoreboard.png "Scoreboard")
-![Mobile](preview/mobile_tutorial.png "Mobile")
+![Mobile](preview/mobile_preview.png "Mobile")
 ![Mobile mäng](preview/mobile_game.png "Mobile")
