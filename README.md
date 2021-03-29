@@ -14,6 +14,7 @@ Kõik resurssi allikad on mängu veebilehel. Mõned joonistasin ise (raudkang).
 - Pausi funktsioon
 - Tulemus salvestatud ketasse
 - Soovi korral tulemus salvestatakse avaliku edetabelisse
+- Erinevad helid, muusika
 - Töötab ka nutitelefonides
 
 ### Pildid
