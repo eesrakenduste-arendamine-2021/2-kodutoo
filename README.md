@@ -1,11 +1,14 @@
 # 2-kodutoo
 
-##Peastarvutamise mäng (liitmine ja lahutamine) [Korrutamine ja jagamine on võimalik koodis sisse lülitada]
+## Peastarvutamise mäng (liitmine ja lahutamine) [Korrutamine ja jagamine on võimalik koodis sisse lülitada]
 Töö autor: Marilii Saar
 
-##Ekraanitõmmis:
+## Ekraanitõmmised:
+![image](https://user-images.githubusercontent.com/70939416/113481858-a0e76a00-94a4-11eb-8e36-0210bec01dfb.png)
+![image](https://user-images.githubusercontent.com/70939416/113481877-b492d080-94a4-11eb-8c9c-34633bc413f0.png)
 
-##Funktsionaalsus:
+
+## Funktsionaalsus:
 Mäng küsib mängija nime (seni kuni seda tühjaks ei jäeta)
 Mäng küsib mängijalt, mitut tehet ta lahendada soovib (seni kuni sisend ei ole positiivne täisarv)
 Mäng kuvab esimese tehte
