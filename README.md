@@ -1,6 +1,8 @@
 # 2-kodutoo
 
-## Peastarvutamise mäng (liitmine ja lahutamine) [Korrutamine ja jagamine on võimalik koodis sisse lülitada]
+## Peastarvutamise mäng (liitmine ja lahutamine) 
+[Korrutamine ja jagamine on võimalik koodis sisse lülitada]
+Link: greeny.cs.tlu.ee/~marisaa/eesrakendused/2-kodutoo/
 Töö autor: Marilii Saar
 
 ## Ekraanitõmmised:
