@@ -11,7 +11,7 @@ Ussimäng, kus mängija saab liikuda noolkahvide abil, ning toitu süües aina p
 
 <img width="1078" alt="mang2" src="https://user-images.githubusercontent.com/70939499/113477822-59a1af00-948d-11eb-82ef-9321bdb3a979.png">
 
-Mängu lõppemise korral antakse mängijale popup, kus kuvatakse mängu jooksul saadud kõrgeim skoor.
+Juhul kui mängija liigub peaga kas ussi keha, või mänguplatsi piiri peale, lõpetatakse mäng ära ning kuvatakse mängu jooksul saadud kõrgeim skoor.
 
 
 <img width="1071" alt="mang3" src="https://user-images.githubusercontent.com/70939499/113477844-95d50f80-948d-11eb-917b-e77b609f708c.png">
