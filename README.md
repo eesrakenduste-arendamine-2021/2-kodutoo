@@ -1,5 +1,5 @@
 # Autor: Hans-Märten Liiu
- [greeny.cs.tlu.ee/~hanslii/2-kodutoo/Calculations.html](greeny.cs.tlu.ee/~hanslii/2-kodutoo/Calculations.html)
+ [http://greeny.cs.tlu.ee/~hanslii/2-kodutoo/Calculations.html](http://greeny.cs.tlu.ee/~hanslii/2-kodutoo/Calculations.html)
 
 ## Funktsionaalsused_1
 * K6igepealt tuleb sisestada m2ngija nimi.
