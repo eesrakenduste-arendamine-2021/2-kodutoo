@@ -1,0 +1,45 @@
+#container{
+    text-align: center;
+    width: 100%;
+}
+#canvas{
+    background-image: url("snakebackground.jpg"); 
+	border-radius: 9px;
+	border: solid;
+	border-color: black;
+    margin:auto;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 17px;
+    text-align: center; 
+    background-image: url("background.jpg"); 
+    color: white;  
+}
+span{
+	font-size: 18px;
+	font-family: 'Varela Round', sans-serif;
+}
+.swal{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+
+}
+footer{
+	color: white;
+	font-size: 12px;
+}
+button{
+    background-color: #0A6C00;
+	font-family: 'Varela Round', sans-serif;	
+    color: white;
+	font-size: 15px;
+    padding: 9px 15px;
+    border: none;
+	margin: 12px;
+    border-radius: 14px;
+	justify-content: center;
+}
+button:hover{
+	background-color: #074C00;
+}
