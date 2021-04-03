@@ -1,6 +1,9 @@
 let playerName = prompt('Please enter your name.');
 let tehtearv = prompt('Please enter how many calculations u would like to do!');
 
+if(tehtearv == null){
+    tehtearv = 2;
+}
 
 class Calculation{
     constructor(name){
@@ -75,8 +78,8 @@ class Calculation{
     saveResult(){
         let result = {
             name: this.name,
-            time: ((this.endTime-this.startTime)/1000).toFixed(2)
-            //many: this.calculationsInGame
+            time: ((this.endTime-this.startTime)/1000).toFixed(2),
+            many: this.calculationsInGame
         }
 
         this.results.push(result);
@@ -102,7 +105,7 @@ class Calculation{
             const number3 = number1 + number2 - answer;
             const string = `${number1}  + ${number2} - ${number3}`;
 
-            
+
             this.typeAnswers[i] = answer;
             this.typeCalculations[i] = string;
             
@@ -134,8 +137,8 @@ class Calculation{
         $('#results').html("");
         for(let i = 0; i < this.results.length; i++){            
             if(i === 20){break;}
-            $('#results').append((i+1) + ". " + this.results[i].name + " " + this.results[i].time + "<br>");
-            //" Tehete arv: " + this.results[i].many +
+            $('#results').append((i+1) + ". " + this.results[i].name + " " + this.results[i].time + " sec " + " & Calculations: " + this.results[i].many + "<br>");
+
         }
     }
 
