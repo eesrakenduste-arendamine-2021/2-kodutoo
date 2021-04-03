@@ -111,9 +111,10 @@ class Calc {
                         average += attempt;
                     });
                     average = (average / this.tries.length).toFixed(2);
-                    $('#score').html(this.name + " took an average of " + average + " turns per round. Average time per round was " + (((this.endTime - this.startTime) / 1000) / this.turns).toFixed(2));
+                    $('#score').html(this.name + "<br>Average turns per round: " + average + " <br>Average time per round: " + (((this.endTime - this.startTime) / 1000) / this.turns).toFixed(2) + " seconds");
                     this.saveResult(average);
                     this.showTurns();
+                    $('#calculationDiv').html("<br>");
                     $('#feedback').html("Well done!<br>To start a new game, press Enter.");
                     $(document).off('keypress');
                     $(document).on('keypress', (e) => this.startGameWithEnter(e.keyCode));                    
@@ -154,14 +155,23 @@ class Calc {
     }
 
     showResults() {
-        $('#results').fadeToggle();
+        $('#results').fadeToggle().css('display', 'flex');
+        $('#turns').fadeToggle();
+        $('#show-results').fadeOut(200, function() { // With help from: https://stackoverflow.com/questions/1490563/why-doesnt-jquery-fadein-work-with-html
+            if ($('#show-results').html() == "TOP 10") {
+                $('#show-results').html("X");
+            } else {
+                $('#show-results').html("TOP 10");
+            }
+        }).fadeIn(200);
+        
         $('#results').html("");
-        let datastring = "<table><thead><tr><th></th><th>Name</th><th>Average tries per equation</th><th>Average time per turn</th></tr></thead><tbody>";
+        let datastring = "<h1>TOP 10</h1><table class=\"results-table\"><thead><tr><th></th><th>Name</th><th>Average<br>tries per equation / time per turn</th></tr></thead><tbody>";
         for (let i = 0; i < this.results.length; i++) {
             if (i === 10) {
                 break;
             }
-            datastring += "<tr><td>" + (i + 1) + ".</td><td>" + this.results[i].name + "</td><td>" + this.results[i].average + "</td><td>" + this.results[i].time + "</td></tr>";
+            datastring += "<tr><td>" + (i + 1) + ".</td><td>" + this.results[i].name + "</td><td>" + this.results[i].average + " / " + this.results[i].time + "</td></tr>";
         }
         datastring += "</tbody></table>";
         $('#results').html(datastring);
