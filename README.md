@@ -1,26 +1,17 @@
-# 2-kodutoo
+# Autor: Hans-Märten Liiu
+ [http://greeny.cs.tlu.ee/~hanslii/2-kodutoo/Calculations.html](http://greeny.cs.tlu.ee/~hanslii/2-kodutoo/Calculations.html)
 
-2. kodutöö Eesrakenduste arendamises.
+## Funktsionaalsused_1
+* K6igepealt tuleb sisestada m2ngija nimi, see j2rel mitu tehet arvutada soovid.
+* Kui tehete arv j22b sisestamata, siis default arv on 2.
+* M2ng hakkab kohe pihta.
+* Tekib tehe ekraanile ning j2rgmisele tehtele liikumiseks tuleb sisestada 6ige vastus.
+* Kui m2ng l6ppeb saab soovi korral enteriga m2ngu uuesti alustada.
+* All vasakul on kirjas mitmes tehe on parasjagu k2sil. 
+* Paremal all on v6imalik n2ha scoreboardi, mis on salvestatud database.txt faili ja sealt laetakse local storagesse.
 
-## Tähtaeg 05.04.2021 23:59
-
-Kujunda ja loo ise lihtne mäng. 
-
-## Nõuded
-
-1. Mäng töötab.
-1. Mäng on tehtud jQuery-ga. 
-1. Mäng on objektorienteeritud (klassides) ja kasutatud on AJAX-it. 
-1. Mäng on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
-1. Kui kasutatud on koodi mujalt, siis sellel on viidatud. 
-
-## Mõned ideed (lihtsalt, et mõte hakkaks jooksma)
-
-* Ussimäng
-* Cookie clicker
-* Erinevad arvutamismängud
-* 2048
-
+## Kuvatõmmised
+![Source code](screenshots/pilt1.png)
+![Source code](screenshots/pilt2.png)
+![Source code](screenshots/pilt3.png)
+![Source code](screenshots/pilt4.png)
