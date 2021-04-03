@@ -1,5 +1,5 @@
 let playerName = prompt('Please enter your name.');
-let tehtearv = prompt('Please enter how many calculations u would like to do!');
+let tehtearv = prompt('Please enter how many calculations u would like to do! (NUMBER)');
 
 if(tehtearv == null){
     tehtearv = 2;
@@ -79,7 +79,7 @@ class Calculation{
         let result = {
             name: this.name,
             time: ((this.endTime-this.startTime)/1000).toFixed(2),
-            many: this.calculationsInGame
+            many: tehtearv
         }
 
         this.results.push(result);
