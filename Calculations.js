@@ -1,4 +1,6 @@
 let playerName = prompt('Please enter your name.');
+let tehtearv = prompt('Please enter how many calculations u would like to do!');
+
 
 class Calculation{
     constructor(name){
@@ -46,11 +48,11 @@ class Calculation{
     }
 
     checkAnswer(keypressed){
-        if(this.calculationAnswer == keypressed && this.calculationsTyped != this.calculationsInGame - 1){
+        if(this.calculationAnswer == keypressed && this.calculationsTyped != tehtearv - 1){
             console.log(keypressed);
             this.calculationsTyped++;
             this.selectCalculation();
-        } else if(this.calculationAnswer == keypressed && this.calculationsTyped == this.calculationsInGame - 1){
+        } else if(this.calculationAnswer == keypressed && this.calculationsTyped == tehtearv - 1){
             console.log('Last Calculation');
             this.endTime = performance.now();
             $('#score').html(this.name + " your time was " + ((this.endTime-this.startTime)/1000).toFixed(2));
@@ -93,19 +95,14 @@ class Calculation{
 
 
     generateCalculations(){
-        for(let i = 0; i < this.calculationsInGame; i++){
+        for(let i = 0; i < tehtearv; i++){
             const answer = Math.floor(Math.random() * 10);
             const number1 = Math.floor(Math.random() * 10);
             const number2 = Math.floor(Math.random() * 10);
             const number3 = number1 + number2 - answer;
             const string = `${number1}  + ${number2} - ${number3}`;
-            //this.correctAnswer = answer;
 
-            //setHTML(questionDiv, string);
-
-            //const wordLength = this.startingWordLength + i;
-            //const randomWord = Math.round(Math.random() * this.words[wordLength].length);
-            //this.typeWords[i] = this.words[wordLength][randomWord];
+            
             this.typeAnswers[i] = answer;
             this.typeCalculations[i] = string;
             
@@ -143,7 +140,7 @@ class Calculation{
     }
 
     showInfo(){
-        $('#info').html(this.calculationsTyped + "/" + this.calculationsInGame);
+        $('#info').html(this.calculationsTyped + "/" + tehtearv);
     }
 }
 
