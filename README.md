@@ -7,7 +7,7 @@
 * M2ng hakkab kohe pihta.
 * Tekib tehe ekraanile ning j2rgmisele tehtele liikumiseks tuleb sisestada 6ige vastus.
 * Kui m2ng l6ppeb saab soovi korral enteriga m2ngu uuesti alustada.
-* All vasakul on kirjas mitmes tehe on parasjagu k2sil.
+* All vasakul on kirjas mitmes tehe on parasjagu k2sil. 
 * Paremal all on v6imalik n2ha scoreboardi, mis on salvestatud database.txt faili ja sealt laetakse local storagesse.
 
 ## Kuvatõmmised
