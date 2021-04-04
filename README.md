@@ -5,7 +5,8 @@ Link: http://greeny.cs.tlu.ee/~karlkin/js/2-kodutoo/ <br>
 Autor: Karl Janar Kinkar
 
 ## Kuvatõmmised:
-
+![wpm1](https://raw.githubusercontent.com/karljanar/2-kodutoo/main/assets/wpm1.PNG)
+![wpm2](https://raw.githubusercontent.com/karljanar/2-kodutoo/main/assets/wpm2.PNG)
 
 
 ## Funktsionaalsus:
