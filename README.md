@@ -1,26 +1,21 @@
 # 2-kodutoo
 
-2. kodutöö Eesrakenduste arendamises.
+## Sõnad minutis
+Link: http://greeny.cs.tlu.ee/~karlkin/js/2-kodutoo/ <br>
+Autor: Karl Janar Kinkar
 
-## Tähtaeg 05.04.2021 23:59
+## Kuvatõmmised:
+![wpm1](https://raw.githubusercontent.com/karljanar/2-kodutoo/main/assets/wpm1.PNG)
+![wpm2](https://raw.githubusercontent.com/karljanar/2-kodutoo/main/assets/wpm2.PNG)
 
-Kujunda ja loo ise lihtne mäng. 
 
-## Nõuded
-
-1. Mäng töötab.
-1. Mäng on tehtud jQuery-ga. 
-1. Mäng on objektorienteeritud (klassides) ja kasutatud on AJAX-it. 
-1. Mäng on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
-1. Kui kasutatud on koodi mujalt, siis sellel on viidatud. 
-
-## Mõned ideed (lihtsalt, et mõte hakkaks jooksma)
-
-* Ussimäng
-* Cookie clicker
-* Erinevad arvutamismängud
-* 2048
-
+## Funktsionaalsus:
+Mäng küsib nime, on võimalik tühjaks jätta.<br>
+Mäng küsib mitu lauset soovite mängu(maksimum 2001), jättes tühjaks või kirjutades sinna midagi muud peale numbri, tuleb vaikeväärtuseks 1.<br>
+Mängu alustamiseks on vaja vajutada enter.<br>
+Vajutades valet tähte kuvatakse ekraanil oleval klaviatuuril see täht punaselt.<br>
+Vajutades õiget tähte kuvatakse ekraanil oleval klaviatuuril see täht kollaselt ning mäng hakkab uut tähevajutust ootama.<br>
+Peale igat tähevajutust muudetakse eelmine värvitud nupp tagasi tavalisse värvusesse.<br>
+Terve mäng kuvatakse klaviatuuri üleval täpsust ning sõnad minutis väärtust.<br>
+Mängu on võimalik alustada uuesti peale mängu lõppu.<br>
+Top 10 täpsuse poolest on võimalik kuvada vajutades "TOP 10" peale.<br>
