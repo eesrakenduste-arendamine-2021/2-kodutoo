@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 46, 48);
+}
+
+#container {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#score {
+    font-size: 4vw;
+    color: red;
+    margin-bottom: 50px;
+}
+
+#wordDiv {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 4vw;
+    color: whitesmoke;
+}
+
+#activeScore {
+    font-size: 2.5vw;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#results {
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    width: 100vw;
+    text-align: center;
+    font-size: 25px;
+}
+
+#show-results {
+    text-align: center;
+    background-color: rgba(188, 188, 190, 0.575);
+    color: whitesmoke;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#show-results:hover {
+    background-color: darkgrey;
+}
+
+#keyboardcontainerQP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#keyboardcontainerAL {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#keyboardcontainerZM {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#SPACE {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#github {
+    position: absolute;
+    top: 93%;
+    font-size: 1.5vw;
+}
+
+#autor {
+    left: 5%;
+    font-size: 1.5vw;
+    position: absolute;
+    color: whitesmoke;
+    top: 94%;
+}
