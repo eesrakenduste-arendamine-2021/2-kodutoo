@@ -14,6 +14,6 @@ Iga kord, kui sisestada täielik sõna, siis vigade arv läheb nulli ning skoori
 
 Nurgas on TOP10 nupp, mida vajutades näeb TOP 10 tulemust. Edetabel on toimiv ning tehtud AJAXiga. 
 
-![ekraanipilt1.png](Avaekraan)
-![ekraanipilt2.png](Edetabel)
-![ekraanipilt3.png](Mangulopp)
+![ekraanipilt1.jpg](Avaekraan)
+![ekraanipilt2.jpg](Edetabel)
+![ekraanipilt3.jpg](Mangulopp)
