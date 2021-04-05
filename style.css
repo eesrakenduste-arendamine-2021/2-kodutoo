@@ -1,0 +1,48 @@
+header{
+    font-family: 'DotGothic16', sans-serif;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color:#1a0020;
+}
+
+#canvas {
+    display: block;
+    margin: 5px auto;
+    border: 10px solid #657;
+}
+
+button {
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    margin: 2px;
+    border:solid 1px #000;
+    font-size:18px;
+    color:#ccc;
+    background-color: slategrey;
+    border-color: black;
+    cursor:pointer;
+}
+
+#container {
+    position:absolute;
+    right:  -3px;
+    bottom: 20px;
+    margin: 2px;
+    border:solid 1px #000;
+    font-size:18px;
+    color:#ccc;
+    background-color: slategrey;
+    border-color: black;
+    cursor:pointer;
+}
