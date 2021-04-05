@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <span id="name">Liisa Mikola</span>
+        <br>
+        <br>
+        <button><a href="https://github.com/liismik/2-kodutoo">Repo</a></button>
+        <h1>Snake game</h1>
+        <div id="guide">
+        <span>
+            This is a simple remake of the classic Snake game. 
+            The goal is to eat as many of the red food as possible, thus increasing your score. 
+            The game ends if you run into a wall or collide with yourself. 
+            You can use both WASD and the arrow keys to guide your snake and it grows longer as you eat the food.
+            If you lose, the game restarts itself and you can start over just by guiding the snake. Good luck.
+        </span>
+        </div>
+        <div id="container">
+            <canvas id="canvas" width="600" height="600"></canvas>
+            <span>Score: <b id="score">0</b></span>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

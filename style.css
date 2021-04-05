@@ -1,0 +1,41 @@
+body {
+    background-image: url(istockphoto-1160720443-612x612.jpg);
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#name {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+button {
+    height: 24px;
+    width: 80px;
+}
+
+#canvas {
+    display: flex;
+    margin: auto;
+    border: 10px solid #000000;
+}
+
+#container {
+    text-align: center;
+    font-size: 32px;
+}
+
+#guide {
+    width: 600px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+}
