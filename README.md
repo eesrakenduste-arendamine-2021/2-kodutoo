@@ -1,3 +1,5 @@
+Mänguks on arvutamins mäng. Veebilehele tulles küsib veebileht kasutaja nime. Vajautades generate calculations genereeritakse 10 arvutus tehet millele kasutaja peab vastama. Kui on vastatud vajutades check calculations vastab programm mitu tehet 10.nest oli korrektselt vastatud. Mida rohkem korrektseid vastuseid on seda rohkem Xp´d ja leveleid kasutaja teenib. Vajutades Show scoreboard on näha 10 parimat tulemust  
+
 # 2-kodutoo
 
 2. kodutöö Eesrakenduste arendamises.

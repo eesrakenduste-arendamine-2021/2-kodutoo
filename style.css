@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*Sain aru, et muuta veebilehe tausta on vaja muuta background color ja mitte lihtsalt teve body color*/
+    /*Taustaks valisin googeli arvates 2he stressi v2hendava v2rvi*/
+    background-color: pink;
+    
+}
+
+title{
+font-size: large;
+}
+
+h1{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#calculations{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#autor{
+    color: black;
+}
+
