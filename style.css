@@ -1,0 +1,85 @@
+body {
+    font-family: Comfortaa;
+    line-height: 150%;
+}
+
+.gameArea {
+    display: flex;
+    background-color: lightgray;
+    width: 50vw;
+    height: 70vh;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -35vh;
+    margin-left: -25vw;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.startButton {
+    margin: auto;
+    margin-top: 6vh;
+    width: 5vw;
+    background-color: #323b4e;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tutorial {
+    margin-top: 6vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-align: center;
+    cursor: default;
+}
+
+.bestScore {
+    margin-top: 6vh;
+    text-align: center;
+    cursor: default;
+}
+
+.worstScore {
+    margin-top: 4vh;
+    text-align: center;
+    cursor: default;
+}
+
+#timer {
+    display: none;
+    padding-left: 50vw;
+    padding-top: 3vh;
+    font-size: 300%;
+}
+
+#title {
+    padding-left: 35vw;
+    padding-top: 5vh;
+    font-size: 250%;
+}
+
+.bestTime {
+    color: lightcoral;
+}
+
+.worstTime {
+    color: lightcoral;
+}
+
+#credits {
+    margin-top: 43%;
+}
+
+#repo {
+    margin-left: 80%;
+}

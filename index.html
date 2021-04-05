@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="maze.js" defer></script>
+    <title>Maze Game - labürindimäng</title>
+</head>
+<body>
+    <div id="title">Maze Game - labürindimäng</div>
+    <div id="timer">0.00</div>
+    <br>
+    <canvas id="gameArea" width="1200" height="800">
+    </canvas>
+    <div class="gameArea" id="gameArea">
+        <div class="tutorial">
+            Mäng koosneb kolmest tasemest. Sinu ülesanne on liikuda hiirega mööda etteantud rada, mis iga tasemega kitsamaks ja raskemaks muutub. Rajalt kõrvale kaldudes saadetakse sind tagasi algusesse. Raja lõppu jõudes aga jõuad järgmisele tasemele, kuniks oled võitja.
+            <br>
+            Alustades mängimist hakkab jooksma aeg. Kui lööd üle parima aja või teed kõige kehvema soorituse (mõlemad on näha allpool), pääsed ise avalehele! Pane tähele, et tulemus salvestatakse vaid lõppu jõudes!
+            <br>
+            Mängu alustamiseks vajuta START nupule.
+            <br>
+            Edu!
+            <div class="bestScore">
+                <u>Parim aeg</u>
+                <br>
+                <br>
+                <span class="bestTime">Parimat aega ei salvestata ega kuvata, kuna tegu on offline-versiooniga.</span>
+            </div>
+            <div class="worstScore">
+                <u>Halvim aeg</u>
+                <br>
+                <br>
+                <span class="worstTime">Halvimat aega ei salvestata ega kuvata, kuna tegu on offline-versiooniga.</span>
+            </div>
+            <div class="startButton">START</div>
+        </div>
+    </div>
+    <div id="credits">
+        <span id="author">Autor: Harli Kodasma</span>
+        <span id="repo"><a href="https://github.com/harlikodasma/2-kodutoo" target="_blank">Mängu repositoorium</a></span>
+    </div>
+</body>
+</html>
