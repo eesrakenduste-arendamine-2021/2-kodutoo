@@ -2,25 +2,19 @@
 
 2. kodutöö Eesrakenduste arendamises.
 
-## Tähtaeg 05.04.2021 23:59
+## Alex Nelke
 
-Kujunda ja loo ise lihtne mäng. 
+Tegin lihtsa ussimängu. Kõige suurem probleem oli AJAX-ga ühendamine, mis lõpetas mingi hetk töötamise ja otsustasin lõpuks kõik sellega seotu ära kustutada, sest ei saanud seda enam tagasi tööle.
+![image](https://user-images.githubusercontent.com/71014196/113621601-7cd28700-9664-11eb-89c1-5017e26971a8.png)
 
-## Nõuded
+Kui seina või enda pihta läheb tuleb selline sõnum:
+![image](https://user-images.githubusercontent.com/71014196/113621728-a8557180-9664-11eb-8b3d-759d88052d36.png)
 
-1. Mäng töötab.
-1. Mäng on tehtud jQuery-ga. 
-1. Mäng on objektorienteeritud (klassides) ja kasutatud on AJAX-it. 
-1. Mäng on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
-1. Kui kasutatud on koodi mujalt, siis sellel on viidatud. 
+Olemas on nupp, mis teeb lehele restardi, et uuesti mängida ja viide github repositooriumile
 
-## Mõned ideed (lihtsalt, et mõte hakkaks jooksma)
+Kasutatud allikad:
+https://www.washington.edu/accesscomputing/webd2/student/unit5/module2/lesson1.html
+https://www.freecodecamp.org/news/location-reload-method-how-to-reload-a-page-in-javascript/
+https://thecodeplayer.com/index.php/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery
 
-* Ussimäng
-* Cookie clicker
-* Erinevad arvutamismängud
-* 2048
 
