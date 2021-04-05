@@ -16,4 +16,4 @@ Nurgas on TOP10 nupp, mida vajutades näeb TOP 10 tulemust. Edetabel on toimiv n
 
 ![ekraanipilt1.png](Avaekraan)
 ![ekraanipilt2.png](Edetabel)
-![ekraanipilt3.png](Mängu lõpp)
+![ekraanipilt3.png](Mangulopp)
