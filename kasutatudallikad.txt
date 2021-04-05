@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/35261845/remove-line-breaks-spaces-from-array;

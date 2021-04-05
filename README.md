@@ -1,26 +1,19 @@
-# 2-kodutoo
+Autor: Oliver Labi
 
-2. kodutöö Eesrakenduste arendamises.
+Funktsionaalsus
 
-## Tähtaeg 05.04.2021 23:59
+Klassikaline poomismäng
 
-Kujunda ja loo ise lihtne mäng. 
+Mäng on eesti keelne. Tähti saab sisestada vajutades ekraanil olevatele klaviatuurinuppudele.
 
-## Nõuded
+Lubatud on 6 viga. Kui sooritada 6 viga, siis mäng viskab ekraani ette, kus saad uuesti mängu alustada.
 
-1. Mäng töötab.
-1. Mäng on tehtud jQuery-ga. 
-1. Mäng on objektorienteeritud (klassides) ja kasutatud on AJAX-it. 
-1. Mäng on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
-1. Kui kasutatud on koodi mujalt, siis sellel on viidatud. 
+Viga sooritades vahetuvad kriipsujuku pildid.
 
-## Mõned ideed (lihtsalt, et mõte hakkaks jooksma)
+Iga kord, kui sisestada täielik sõna, siis vigade arv läheb nulli ning skoorile tuleb +1.
 
-* Ussimäng
-* Cookie clicker
-* Erinevad arvutamismängud
-* 2048
+Nurgas on TOP10 nupp, mida vajutades näeb TOP 10 tulemust. Edetabel on toimiv ning tehtud AJAXiga. 
 
+![Avaekraan](ekraanipilt1.png)
+![Edetabel](ekraanipilt2.png)
+![Mängu lõpp](ekraanipilt3.png)

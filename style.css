@@ -1,0 +1,136 @@
+body{
+    background-color:darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: auto;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
+    
+}
+
+#flexContainer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+}
+
+#flexLeft{
+    width: 40%;
+    align-self: flex-start;
+}
+
+#flexRight{
+    width: 50%;
+}
+
+#flexDown{
+    align-items: center;
+    text-align: center;
+}
+
+#text{
+    align-items: flex-end;
+    text-align: right;
+    font-size: 2vw;
+    margin-left: auto;
+}
+
+#usedLetters{
+    unicode-bidi: bidi-override;
+    font-size: 2vw;
+    margin-left: auto;
+    direction: rtl;
+    letter-spacing: 10px;
+}
+
+#score{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black;
+    font-size: 25px;
+}
+
+#screenWord{
+    font-size: 5vw;
+    letter-spacing: 10px;
+}
+
+#buttonContainer{
+    margin: 10px auto;
+}
+
+#buttonContainer button{
+    cursor: pointer;
+    width: 50px;
+    font-size: 2em;
+    height: 50%;
+    background-color:goldenrod;
+    margin: 10px auto;   
+}
+
+button:active{
+    width: 50px;
+    font-size: 2em;
+    height: 50%;
+    background-color:rgb(87, 66, 13);
+    margin: 10px auto;   
+}
+
+#show-results{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#show-results:hover{
+    color: goldenrod;
+}
+
+#end{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkslategray;
+    padding: 5%;
+    text-align: center;
+    font-size: 80px;
+}
+
+#scoreEnd{
+    font-size: 50px;
+}
+
+#lastWord{
+    font-size: 35px;
+}
+
+#newGame{
+    cursor: pointer;
+    width: auto;
+    height: 50%;
+    background-color:goldenrod;
+    margin: 10px auto; 
+    font-size: 20px;  
+}
+
+#results{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkslategray;
+    padding: 5%;
+    text-align: center;
+    font-size: 25px;
+}

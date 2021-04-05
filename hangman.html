@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="hangman.js" defer></script>
+    <title>Poomine</title>
+</head>
+<body>
+    <div id="show-results">TOP10</div>
+    <div id="results">Nimi  Skoor <br></div>
+    <div id="end">
+        <img src="img\hangman1.png" alt="hangman" class="active">
+        <p>Mäng läbi!</p>
+        <div id="lastWord">Viimane sõna oli: </div>
+        <div id="scoreEnd">Skoor: 0</div>
+        <button id="newGame">Uus mäng</button>
+    </div>
+    <div id="flexContainer">
+        <div id="results"></div>
+        <div id="flexLeft">
+            <div id="text">Kasutatud tähed:</div>
+            <div id="usedLetters"></div>
+            <div id="score">Skoor: 0</div>
+        </div>
+
+        <div id="flexRight">
+            <div id="picContainer"></div>
+                <img src="img\hangman7.png" alt="hangman" class="active">
+        </div>
+        <div id="flexDown">
+            <div id="screenWord">Poomine</div>
+            <div id="buttonContainer">
+                <div id="firstGroup">
+                    <button id="Q">Q</button>
+                    <button id="W">W</button>
+                    <button id="E">E</button>
+                    <button id="R">R</button>
+                    <button id="T">T</button>
+                    <button id="Y">Y</button>
+                    <button id="U">U</button>
+                    <button id="I">I</button>
+                    <button id="O">O</button>
+                    <button id="P">P</button>
+                </div>
+                <div id="secondGroup">
+                    <button id="A">A</button>
+                    <button id="S">S</button>
+                    <button id="D">D</button>
+                    <button id="F">F</button>
+                    <button id="G">G</button>
+                    <button id="H">H</button>
+                    <button id="J">J</button>
+                    <button id="K">K</button>
+                    <button id="L">L</button>
+                </div>
+                <div id="thirdGroup">
+                    <button id="Z">Z</button>
+                    <button id="X">X</button>
+                    <button id="C">C</button>
+                    <button id="V">V</button>
+                    <button id="B">B</button>
+                    <button id="N">N</button>
+                    <button id="M">M</button>
+                </div>
+                <p>Oliver Labi</p>
+                <p>Rakenduse repositoorium: <br> https://github.com/oliverlabi/2-kodutoo</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
