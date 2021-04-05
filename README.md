@@ -15,8 +15,8 @@ Tegu on labürindimänguga (Maze Game). Ülesandeks on liikuda hiirega mööda e
 
 ## Märkused
 
-* <span style="font-size: 120%">DISCLAIMER: Kes veel aru ei saanud, siis tegu on järgitehtud Scary Maze mänguga ehk tegelikult "päris" lõpuni pole võimalik jõuda, veidi enne lõppu ilmub _jumpscare_ ehk valju heli ja "hirmus" pilt - see ongi kogu mängu mõte.</span>
-* Mõne inimese jaoks ei tööta mäng Firefox brauseriga (kogu mäng on väga _unresponsive_ ja aken _stutter_ib). Ei suutnud välja selgitada põhjust - töötab brauseritel Brave, Chrome, Edge (Chromium), Opera.
+* **DISCLAIMER: Kes veel aru ei saanud, siis tegu on järgitehtud Scary Maze mänguga ehk tegelikult "päris" lõpuni pole võimalik jõuda, veidi enne lõppu ilmub _jumpscare_ ehk valju heli ja "hirmus" pilt - see ongi kogu mängu mõte.**
+* Mõne inimese jaoks ei tööta mäng Firefox brauseriga (kogu mäng on väga _unresponsive_ ja aken _stutterib_). Ei suutnud välja selgitada põhjust - töötab brauseritel Brave, Chrome, Edge (Chromium), Opera.
 * On ka JS failis kommentaarina välja toodud, aga on kasutatud koodi antud lehelt: https://ourcodeworld.com/articles/read/185/how-to-get-the-pixel-color-from-a-canvas-on-click-or-mouse-event-with-javascript
 Laenatud koodi on muudetud vastavalt vajadusele ning selle eesmärk on teha ära _hit detection_ töö antud mängus. Ise sellist asja välja mõelda ega tööle panna ei suutnud ning leidsin sobiva valmis lahenduse, mis aga vajas päris hulga tööd, et enda olukorras tööle saada.
 * Mängus on kasutatud nii jQuery't kui ka vanilla JSi põhjusel, et kõiki asju ei saanud teha näiteks jQuery selectoritega nii, nagu seda saab teha vanilla JSiga.
