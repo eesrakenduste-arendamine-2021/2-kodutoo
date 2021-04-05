@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>Georg Kivi</title>
+  </head>
+    <style>
+    .pildid {
+      margin: 1em 0;
+      text-align: center;
+    }
+
+    .pildid img {
+      width: 10vw;
+      height: 10vw;
+    }
+
+    .pildid-kata img {
+      object-fit: cover;
+    }
+
+  </style>
+  <body>
+    <center>
+      <div id="results" style="display: none;" class="pildid pildid-kata" >        
+          <div style ="border: double;">
+            <h2>Arvuti valis</h2>
+            <div id="arvuti"></div>
+          </div>
+          <div id="tulemused" ></div>
+          <div style ="border: double;">
+            <h2>Sina valisid</h2>
+            <div id="mangija"></div>
+          </div>
+      </div>
+      <div class="pildid pildid-kata">
+        <h2> Vali kas kivi , paber või käärid </h2>
+          <img class="pildid" src="Rock.png" onclick="kivi()"/>
+          <img class="pildid" src="Paper.png" onclick="paber()"/>
+          <img class="pildid" src="Scissors.png" onclick="kaarid()"/>
+		  </div>
+    </center>
+  </body>
+  <script>
+    var symbol = "";
+
+    $(function(){});
+ 
+    var kasi = ["kivi","paber","kaarid"];
+    function kivi() {
+      $("#mangija").html("<img class='pildid' src='Rock.png'/>");
+      kivipaberkaarid("kivi");
+    }
+    function paber() {
+      $("#mangija").html("<img class='pildid' src='Paper.png'/>");
+      kivipaberkaarid("paber");
+    }
+    function kaarid() {
+
+      $("#mangija").html("<img class='pildid' src='Scissors.png'/>");
+      kivipaberkaarid("kaarid");
+    }
+
+
+    function kivipaberkaarid(symbol) {
+      //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+      var arvuti = kasi[Math.floor(Math.random() * 3)];
+      show();
+      //https://www.w3schools.com/js/js_switch.asp
+      switch(arvuti) {
+        case "kivi":
+          $("#arvuti").html("<img class='pildid' src='Rock.png'/> ");
+          symbol == "kaarid" ? kaotaja() : symbol == "paber" ? voitja() : viik()
+          break;
+        case "paber":
+          $("#arvuti").html("<img class='pildid' src='Paper.png'/>");
+          symbol == "kivi" ? kaotaja() : symbol == "kaarid" ? voitja() : viik()
+          break;
+        case "kaarid":
+          $("#arvuti").html("<img class='pildid' src='Scissors.png'/>");
+          symbol == "paber" ? kaotaja() : symbol == "kivi" ? voitja() : viik()
+          break;
+      }
+    }
+    function viik() {
+      $("#tulemused").html("<h1>Viik!</h1>")
+    }
+    function voitja() {
+      $("#tulemused").html("<h1>Võitsid!</h1>")
+    }
+    function kaotaja() {
+      $("#tulemused").html("<h1>Kaotasid!</h1>")
+    }
+    function show(){
+      document.getElementById('results').style.display= 'block' ;
+    }
+  </script>
+</html>
