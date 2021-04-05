@@ -1,0 +1,46 @@
+body{
+  background: #0099ff;
+}
+#snakeboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #score {
+    text-align: Left;
+    font-size: 80px;
+    font-family: Arial;
+    width: 92%;
+    flex-shrink: 10;
+    color: white;
+  }
+  
+  #score2 {
+    text-align: Left;
+    font-size: 40px;
+    font-family: Arial;
+    width: 92%;
+    flex-shrink: 10;
+    color: white; 
+  }
+  #snake{
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial;
+  }
+  .author-container {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-style:normal;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: space-between;
+    width: 92%;
+    margin: auto;
+}
+
+footer{
+    padding-top: 22%;
+    flex-shrink: 10;
+}
