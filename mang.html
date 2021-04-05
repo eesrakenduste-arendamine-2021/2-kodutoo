@@ -1,0 +1,118 @@
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #main{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: aquamarine;
+    }
+    h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    #repo{
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        cursor: pointer;
+        background-color: rgb(48, 48, 48);
+        padding: 10px 15px;
+        border-radius: 10px;
+        color: white;
+    }
+    #repo:hover{
+        background-color: rgb(82, 82, 82);
+    }
+    #button{
+        cursor: pointer;
+        margin: 8px 0px 0px 12px;
+        background-color: rgb(48, 48, 48);
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    #button:hover{
+        background-color: rgb(82, 82, 82);
+    }
+    #name{
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        background-color: rgba(255, 255, 255, 0.877);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    #game{
+        margin-top: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+    }
+    #cookie{
+        background-color: bisque;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+        border: 20%;
+        border-color: black;
+    }
+    #results{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+    }
+    #cookies{
+        font-size: 20px;
+    }
+    #clicks{
+        font-size: 20px;
+    }
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="mang.js" defer></script>
+    <title>Mäng</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Küpsise klikker</h1>
+        <h2>Reegleid vast pole vaja</h2>
+        <div id="game">
+            <div id="cookie"></div>
+            <div id="results"><b>Tulemused</b>
+                <div id="cookies">Küpsiseid: </div>
+                <div id="clicks">Klikke tehtud: </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="repo" onclick="location.href='https://github.com/stellamarii/2-kodutoo';">Github</div>
+        <div id="name">Stella-Marii Tamme</div>
+    </div>
+
+</body>
+</html>
