@@ -51,15 +51,41 @@
         padding: 10px 15px;
         border-radius: 5px;
     }
-    #game{
+    #gameArea{
         margin-top: 20px;
         border-radius: 10px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        width: 800px;
+        height: 500px;
+        background-color: rgba(104, 104, 104, 0.37);
+    }
+    #game{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 400px;
-        height: 400px;
+    }
+    #specials{
+        width: 400px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .item{
+        background-color: rgb(118, 17, 212);
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .item:hover{
+        background-color: rgb(80, 11, 145);
     }
     #cookie{
         background-color: bisque;
@@ -69,6 +95,10 @@
         margin-top: 20px;
         border: 20%;
         border-color: black;
+    }
+    #cookie:active{
+        background-color: rgb(255, 195, 122);
+        transform: scale(0.9);
     }
     #results{
         margin-top: 20px;
@@ -82,6 +112,9 @@
     }
     #clicks{
         font-size: 20px;
+    }
+    #table{
+        text-align: center;
     }
 
 </style>
@@ -100,11 +133,61 @@
     <div id="main">
         <h1>Küpsise klikker</h1>
         <h2>Reegleid vast pole vaja</h2>
-        <div id="game">
-            <div id="cookie"></div>
-            <div id="results"><b>Tulemused</b>
-                <div id="cookies">Küpsiseid: </div>
-                <div id="clicks">Klikke tehtud: </div>
+        <div id="gameArea">
+            <div id="game">
+                <div id="cookie"></div>
+                <div id="results"><b>Tulemused</b>
+                    <div id="cookies">Küpsiseid: 0</div>
+                    <div id="clicks">Klikke tehtud: 0</div>
+                </div>
+            </div>
+            <div id="specials">
+                <table width=100% border="1" id="table">
+                    <tr>
+                        <td>
+                            <p>Asjad</p>
+                        </td>
+                        <td width=100px>
+                            <p>Hind</p>
+                        </td>
+                        <td width=100px>
+                            <p>Kogus</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item" id="grandma">VANAEMA <br>(+1 CpS)</div>
+                        </td>
+                        <td>
+                            <div id="grandmaPrice">5</div>
+                        </td>
+                        <td>
+                            <div id="grandmaNr">0</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item" id="farm">FARM <br>(+10 CpS)</div>
+                        </td>
+                        <td>
+                            <div id="farmPrice">50</div>
+                        </td>
+                        <td>
+                            <div id="farmNr">0</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item" id="mine">KAEVANDUS <br>(+50 CpS)</div>
+                        </td>
+                        <td>
+                            <div id="minePrice">200</div>
+                        </td>
+                        <td>
+                            <div id="mineNr">0</div>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
