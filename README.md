@@ -1,26 +1,13 @@
-# 2-kodutoo
+# Arvutamise mäng
+  1.Lehel kuvatakse sulle suvaline liitmise - lahutamise tehe. 
+  2.Õigesti vastamisel leht õnnitleb sind ja sinu tulemus salvestatakse.
+  3.Kui vastad alla 5 sekundiga saad kiita.
+  4.Valesti vastamisel öeldakse, et proovi uuesti.
+  5.Saad alustada uut mängu enterit vajutades.
+  6.Saad vaadata parimaid tulemusi.
 
-2. kodutöö Eesrakenduste arendamises.
-
-## Tähtaeg 05.04.2021 23:59
-
-Kujunda ja loo ise lihtne mäng. 
-
-## Nõuded
-
-1. Mäng töötab.
-1. Mäng on tehtud jQuery-ga. 
-1. Mäng on objektorienteeritud (klassides) ja kasutatud on AJAX-it. 
-1. Mäng on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
-1. Kui kasutatud on koodi mujalt, siis sellel on viidatud. 
-
-## Mõned ideed (lihtsalt, et mõte hakkaks jooksma)
-
-* Ussimäng
-* Cookie clicker
-* Erinevad arvutamismängud
-* 2048
-
+![Screenshot 2021-04-05 201643](https://user-images.githubusercontent.com/71014202/113603081-25282180-964c-11eb-8621-90581a630129.png)
+![Screenshot 2021-04-05 201802](https://user-images.githubusercontent.com/71014202/113603087-25c0b800-964c-11eb-92a7-2d1329960aba.png)
+![Screenshot 2021-04-05 201831](https://user-images.githubusercontent.com/71014202/113603091-26594e80-964c-11eb-9cd1-b5fa97de8c5b.png)
+![Screenshot 2021-04-05 202428](https://user-images.githubusercontent.com/71014202/113603709-ee9ed680-964c-11eb-9d0d-8f170ba6c8b9.png)
+  
