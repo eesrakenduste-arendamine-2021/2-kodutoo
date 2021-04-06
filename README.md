@@ -1,5 +1,7 @@
 Stella-Marii Tamme
 
-*Lihtne cookie clicker mäng. Kui on piisavalt küpsiseid, saab boonuseid. Loeb küpsiseid ja klikke
+*Lihtne cookie clicker mäng. 
+*Loeb küpsiseid ja klikke
+*Küpsiste eest saab osta boonuseid, mis suurendavad küpsiste kogust automaatselt
 
-![image](https://user-images.githubusercontent.com/66253869/113623550-303c7b00-9667-11eb-8569-4af5fd3b1b29.png)
+![image](https://user-images.githubusercontent.com/66253869/113759043-4efd4900-971d-11eb-9b34-93849d3e9717.png)
