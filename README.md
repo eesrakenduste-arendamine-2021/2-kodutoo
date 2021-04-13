@@ -24,3 +24,18 @@ Kujunda ja loo ise lihtne mäng.
 * Erinevad arvutamismängud
 * 2048
 
+
+
+Mäng: rock, paper ja scissors
+Mäng on väga lihtne, kasutatud on JQuery, HTML, CSS
+Mängu kasutajaid on kaks: arvuti ja kasutaja ise
+
+![image](https://user-images.githubusercontent.com/55079917/114558703-a0ed2400-9c73-11eb-8fb5-67ba649fdb47.png)
+
+
+Kui kasutaja valis pilt, siis näeb ekraanis seda:
+
+![image](https://user-images.githubusercontent.com/55079917/114558792-b7937b00-9c73-11eb-81c4-28e4be4cf662.png)
+
+
+Mäng lõppeb, kui kasutaja sulgeb ekraani
