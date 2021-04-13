@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mäng</title>
+</head>
+    <body>
+        <h2>autor: Elena Dunajeva, repositoorium: https://github.com/elenadun</h2>
+        <br>
+        <br>
+    <h1>Tehke valik:</h1>
+
+    <!-- pildid-->
+    <img src="rock.jpg" name="rock" id = "rock" width="30px"/>
+    <img src="paper.jpg" name="paper" id = "paper" width="30px"/>
+    <img src="scissors.jpg" name="scissors" id = "scissors" width="30px"/>
+
+    <h1>Arvuti valib: </h1>
+    <script>
+        var userChoice = null;
+        var computerChoice = null;
+        $(document).ready(
+            function ()
+            {
+                 $('#rock').click(function(){
+                    userChoice = "rock";
+                    newComputerChoice();
+                    computResult();
+                });
+                $('#paper').click(function(){
+                    userChoice = "paper";
+                    newComputerChoice ();
+                    computResult();
+                });
+                $('#scissors').click(function(){
+                    userChoice = "scissors";
+                    newComputerChoice ();
+                    computResult();
+                });
+            }
+        );
+
+        function newComputerChoice ()
+        {
+            computerChoice = Math.floor(Math.random() * 3) + 1;
+            // arvuti valib random numbrite vahel
+            if (computerChoice == 1)
+                {
+                    computerChoice = "rock";
+                }
+            else if (computerChoice == 2)
+                {
+                    computerChoice = "paper";
+                }
+            else 
+                {
+                    computerChoice = "scissors";
+                }
+
+        }
+        function computResult()
+        {
+            var result; 
+            if (userChoice == computerChoice){
+                result="Tie!";
+            } else if (userChoice == "rock" && computerChoice == "scissors"){
+                result="Teie võitsite!";
+            } else if (userChoice == "paper" && computerChoice == "rock"){
+                result="Teie võitsite!";
+            } else if (userChoice == "scissors" && computerChoice == "paper"){
+                result="Teie võitsite!";
+            } else if (computerChoice == "rock" && userChoice == "scissors"){
+                result="Kahjuks, kaotasite";
+            } else if (computerChoice == "paper" && userChoice == "rock"){
+                result="Kahjuks, kaotasite";
+            } else if (computerChoice == "scissors" && userChoice == "paper"){
+                result="Kahjuks, kaotasite";
+            }
+
+            var table = document.getElementById("result");
+            var row = table.insertRow(table.rows.length);
+            var cell = row.insertCell(row.cells.length);
+            var img = document.createElement("img");
+            img.src = document.getElementById(computerChoice).src;
+            $(cell).append(img);
+            cell = row.insertCell(row.cells.length);
+            img = document.createElement("img");
+            img.src = document.getElementById(userChoice).src;
+            $(cell).append(img);
+            cell = row.insertCell(row.cells.length);
+            cell.innerHTML=result;
+
+            //abi võetud https://question-it.com/questions/
+        }
+
+
+
+    </script>
+    <table id = "result">
+        <tr>
+            <td>Arvuti valik</td>
+            <td>Teie valik</td>
+            <td>Tulemus</td>
+        </tr>   
+    </table>
+    </body>
+</html>
