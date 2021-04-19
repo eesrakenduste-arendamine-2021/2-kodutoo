@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="num.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Numeroloogia</title>
+</head>
+<body>
+    <div id="inputContainer">
+        <p>Sisestage nimi ja sünnikuupäev: </p>
+        <input type="text" name="name" id="name" placeholder="Nimi">
+        <input type="date" name="date" id="date">
+    </div>
+    <div id="buttonContainer"><input type="button" value="Vaata tulemust" id="addButton"></div>
+    <div id="answerContainer" style="display: none">
+        <p id="answerNumbers"></p>
+        <p>Teie põhinumber on: <span id="answerMainNumber"></span></p>
+        <p id="answerMeaning"></p>
+    </div>
+
+</body>
+</html>

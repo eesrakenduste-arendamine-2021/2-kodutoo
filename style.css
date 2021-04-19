@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+
+input{
+    with: 25%;
+    margin: 5px;
+    height: 25px;
+
+}
+
+#buttonContainer input[type='button']{
+    background-color: rgb(230, 54, 192);
+    color: rgb(97, 16, 97);
+    font-size: 17px;
+    border-radius: 10px;
+    height: 37px;
+    border: none;
+
+
+}
+
+#buttonContainer input[type='button']:hover{
+    background-color: rgb(97, 16, 97);
+    color: rgb(230, 54, 192);
+}
+
+.entry-value{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#buttonContainer, #inputContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
