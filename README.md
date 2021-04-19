@@ -1,26 +1,12 @@
-# 2-kodutoo
+Kodutöö 2
+Mirjam Laanejõe
 
-2. kodutöö Eesrakenduste arendamises.
+Mängu väljadesse tuleb lisada oma nimi sa sünnikuupäev. Rakendus arvutab, ning toob välja inimese talismani/õnne numbri.
 
-## Tähtaeg 05.04.2021 23:59
+Ekraani pilt: https://drive.google.com/file/d/1FxmEM1jHFUn6x30J-fDh4TbJvLDL47-A/view?usp=sharing
 
-Kujunda ja loo ise lihtne mäng. 
+[Kodutoo2.zip](https://github.com/mirjam999/2-kodutoo/files/6333511/Kodutoo2.zip)
 
-## Nõuded
 
-1. Mäng töötab.
-1. Mäng on tehtud jQuery-ga. 
-1. Mäng on objektorienteeritud (klassides) ja kasutatud on AJAX-it. 
-1. Mäng on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
-1. Kui kasutatud on koodi mujalt, siis sellel on viidatud. 
 
-## Mõned ideed (lihtsalt, et mõte hakkaks jooksma)
-
-* Ussimäng
-* Cookie clicker
-* Erinevad arvutamismängud
-* 2048
 
