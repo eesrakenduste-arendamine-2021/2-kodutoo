@@ -1,0 +1,201 @@
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #main{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: aquamarine;
+    }
+    h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    #repo{
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        cursor: pointer;
+        background-color: rgb(48, 48, 48);
+        padding: 10px 15px;
+        border-radius: 10px;
+        color: white;
+    }
+    #repo:hover{
+        background-color: rgb(82, 82, 82);
+    }
+    #button{
+        cursor: pointer;
+        margin: 8px 0px 0px 12px;
+        background-color: rgb(48, 48, 48);
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    #button:hover{
+        background-color: rgb(82, 82, 82);
+    }
+    #name{
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        background-color: rgba(255, 255, 255, 0.877);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    #gameArea{
+        margin-top: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 800px;
+        height: 500px;
+        background-color: rgba(104, 104, 104, 0.37);
+    }
+    #game{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+    #specials{
+        width: 400px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .item{
+        background-color: rgb(118, 17, 212);
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .item:hover{
+        background-color: rgb(80, 11, 145);
+    }
+    #cookie{
+        background-color: bisque;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+        border: 20%;
+        border-color: black;
+    }
+    #cookie:active{
+        background-color: rgb(255, 195, 122);
+        transform: scale(0.9);
+    }
+    #results{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+    }
+    #cookies{
+        font-size: 20px;
+    }
+    #clicks{
+        font-size: 20px;
+    }
+    #table{
+        text-align: center;
+    }
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="mang.js" defer></script>
+    <title>Mäng</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Küpsise klikker</h1>
+        <h2>Reegleid vast pole vaja</h2>
+        <div id="gameArea">
+            <div id="game">
+                <div id="cookie"></div>
+                <div id="results"><b>Tulemused</b>
+                    <div id="cookies">Küpsiseid: 0</div>
+                    <div id="clicks">Klikke tehtud: 0</div>
+                </div>
+            </div>
+            <div id="specials">
+                <table width=100% border="1" id="table">
+                    <tr>
+                        <td>
+                            <p>Asjad</p>
+                        </td>
+                        <td width=100px>
+                            <p>Hind</p>
+                        </td>
+                        <td width=100px>
+                            <p>Kogus</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item" id="grandma">VANAEMA <br>(+1 CpS)</div>
+                        </td>
+                        <td>
+                            <div id="grandmaPrice">5</div>
+                        </td>
+                        <td>
+                            <div id="grandmaNr">0</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item" id="farm">FARM <br>(+10 CpS)</div>
+                        </td>
+                        <td>
+                            <div id="farmPrice">50</div>
+                        </td>
+                        <td>
+                            <div id="farmNr">0</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item" id="mine">KAEVANDUS <br>(+50 CpS)</div>
+                        </td>
+                        <td>
+                            <div id="minePrice">200</div>
+                        </td>
+                        <td>
+                            <div id="mineNr">0</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="repo" onclick="location.href='https://github.com/stellamarii/2-kodutoo';">Github</div>
+        <div id="name">Stella-Marii Tamme</div>
+    </div>
+
+</body>
+</html>
