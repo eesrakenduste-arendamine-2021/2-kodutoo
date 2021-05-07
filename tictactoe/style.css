@@ -3,7 +3,10 @@
 	padding: 0;
 	font-family: 'Patua One';
 }
-
+h1{
+	font-family: 'Patua One';
+	text-align: center;
+}
 body {
 	background-color: #97aabd;
 }
