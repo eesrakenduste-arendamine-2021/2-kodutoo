@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+  <script src="app.js" defer></script>
+  <script src="jquery-3.6.0.js"></script>
+</head>
+<body>
+  
+    <div class="container">
+        <p>Mattias Tüksammel >> https://github.com/Tyks23/2-kodutoo</p>
+        <div class="ring">
+            <div class="everyThingElse">
+                <div class="scoreContainer">
+                    <p class="score"></p>
+                    <p class="score"></p>
+                </div>
+                <div class="image">
+                    <img src="cookie.jpeg"
+                         class="cookieImg"
+                         id="cookie"
+                         onclick="basicIncome()" />
+                </div>
+                <div class="buttons">
+                    <button class="buy" onclick="buyLow()">
+                        Buy Low:
+                        <label class="price" id="lowPrice"></label>
+                    </button>
+
+                    <button class="buy" onclick="buyMid()">
+                        Buy Medium:
+                        <label class="price" id="mediumPrice"></label>
+                    </button>
+
+                    <button class="buy" onclick="buyHigh()">
+                        Buy High:
+                        <label class="price" id="highPrice"></label>
+                    </button>
+                    <button onclick="saveToFile()">
+                        Save Game
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
