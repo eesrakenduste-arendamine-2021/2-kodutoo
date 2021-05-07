@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(84, 84, 206);
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+.cookieImg {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.scoreContainer {
+  display: flex;
+}
+
+.scoreContainer > p {
+  padding: 5px;
+}
+.ring {
+  border: 5px solid black;
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+}
