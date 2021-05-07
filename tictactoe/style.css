@@ -7,6 +7,11 @@ h1{
 	font-family: 'Patua One';
 	text-align: center;
 }
+h2{
+	font-size: small;
+	font-family: 'Patua One';
+	text-align: center;
+}
 body {
 	background-color: #97aabd;
 }
@@ -20,8 +25,8 @@ table {
 }
 
 table tr td {
-	width: 80px;
-	height: 80px;
+	width: 125px;
+	height: 125px;
 	border: 1px solid rgba(255,255,255,.05);
 	font-size: 50px;
 	text-align: center;
