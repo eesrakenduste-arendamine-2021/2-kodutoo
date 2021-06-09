@@ -1,0 +1,73 @@
+
+body {
+	margin: 10px;
+	background-color: #e4d6d6;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: rgb(158, 136, 118);
+}
+
+#button {
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 10px;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	width: 15%;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#history {
+	text-align: center;
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	list-style-position: inside;
+}
+
+#game {
+	width: 50vw;
+	margin: auto;
+	background-color: #ffffff;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #cccccc;
+	padding: 10px;
+	
+}
+
+#status {
+	text-align: center;
+	font-size: 120%;
+}
+
+#footer {
+	margin-top:5px;
+	font-size: 90%;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#repo{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    cursor: pointer;
+    background-color: lightgray;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+#name{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-color: rgba(247, 226, 226, 0.877);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: red;
+}
