@@ -1,10 +1,13 @@
 # 2-kodutoo
 
 2. kodutöö Eesrakenduste arendamises.
-
+Kadri Alumets
+https://greeny.cs.tlu.ee/~kadralu/eesrak/2-kodutoo/
 ## Tähtaeg 05.04.2021 23:59
+*Arvu arvamise mäng
+*Mäng ütleb kas arvatud arv on suurem või väiksem genereeritud arvust
+*Kui arv on ära arvatud, siis ütleb mitu katset läks
 
-Kujunda ja loo ise lihtne mäng. 
 
 ## Nõuded
 
