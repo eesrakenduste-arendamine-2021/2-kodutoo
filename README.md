@@ -1,6 +1,6 @@
 # Markus Tammeoja
 
-Olen koostanud väikse Flappy Bird-laadse mängu. Võttis palju rohkem aega, kui arvasin, aga LÕPUKS sain siiski tööle (async JS tund oleks väga kasulik :D)
+Olen koostanud väikse Flappy Bird-laadse mängu. Võttis palju rohkem aega, kui arvasin, aga LÕPUKS sain siiski tööle
 
 Kõik resurssi allikad on mängu veebilehel. Mõned joonistasin ise (raudkang).
 
