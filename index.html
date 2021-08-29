@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Headcrab Obstacle Course</title>
+</head>
+<body>
+    <h1>Headcrab Obstacle Course</h1>
+    <section id="game">
+        <div id="userScores">
+            <h2 id="score"></h2>
+            <h2 id="highestScore"></h2>
+        </div>
+        <canvas id="canvas" width="512" height="512"></canvas>
+        <h2 id="showUsername"></h2>
+        <button id=saveScore>Save Hiscore</button>
+    </section>
+
+    <section id="tutorial">
+        <h2>Press <span>ANY KEY</span> or <span>TAP</span> to start the game</h2>
+        <h3>If this is your first time, you'll be prompted for a name</h2>
+        <div>
+            <h2>W to go UP</h2>
+            <h2>S to go DOWN</h2>
+            <h2>TAP to go UP</h2>
+            <h2>P to PAUSE</h2>
+        </div>
+    </section>
+    <section>
+        <h2>About</h2>
+        <p>
+            Made by Markus Tammeoja<br><br>
+            This game was made as an assignment for a <a href="https://www.tlu.ee/" style="text-decoration: underline;">Tallinn University</a> Front-End Development course.<br>
+            Inspired by Half-Life.<br>
+
+            <ul> 
+                <h3>Technologies Used</h3>
+                <li>jQuery</li>
+                <li>HTML5 Canvas</li>
+            </ul>
+
+            <ul> 
+                <h3>Assets Used</h3>
+                <li><a href="https://store.steampowered.com/app/70/HalfLife/">Half-Life audio</a></li>
+                <li><a href="https://kondoy.artstation.com/projects/XnzWDD">Background (modified)</a></li>
+                <li><a href="https://www.seekpng.com/ipng/u2e6w7e6q8e6a9i1_ground-sprite-for-technology-assignment-pixel-art-ground/">Foreground (modified)</a></li>
+                <li><a href="https://www.pngfind.com/mpng/hmmTJoi_half-life-headcrab-pixel-art-kris-deltarune-hd/">Headcrab</a></li>
+                <li><a href="https://dlpng.com/png/5413503">Game over (modified)</a></li>
+                <li><a href="https://www.dlf.pt/ddetail/ixhwmx_pause-button-png-transparent-png/">Pause button</a></li>
+                <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+            </ul>
+
+            <ul> 
+                <h3>Resources used</h3>
+                <li><a href="https://www.youtube.com/watch?v=pufKO5EG8nc">Flappy Bird logic and canvas explanation</a></li>
+                <li><a href="https://www.w3schools.com/html/html5_canvas.asp">HTML5 Canvas explanation</a></li>
+                <li><a href="https://stackoverflow.com/questions/66816536/html5-canvas-images-are-not-loading-using-drawimage">My Stackoverflow issue #1</a></li>
+                <li><a href="https://stackoverflow.com/questions/66832119/drawimage-works-outside-of-loop-but-not-inside">My Stackoverflow issue #2</a></li>
+                <li><a href="https://codepo8.github.io/css-fork-on-github-ribbon/">Responsive GitHub ribbon</a></li>
+                <li><a href="https://freefrontend.com/css-text-effects/">CSS Styling for the main header</a></li>
+                <li><a href="https://github.com/eesrakenduste-arendamine-2021/7-tund/blob/main/typer.js">Lesson example for the cursed AJAX calls</a></li>
+                <li><a href="https://cssgradient.io/">CSS Gradient Generator</a></li>
+                <li><a href="https://www.cssmatic.com/box-shadow">CSS Boxshadow Generator</a></li>
+            </ul>
+        </p>
+    </section>
+
+    <section>
+        <h2>Public Scoreboard</h2>
+        <div id="scoreboard">
+        </div>
+    </section>
+</body>
+<span id="forkongithub"><a href="https://github.com/Uptaker/2-kodutoo">Find me on GitHub</a></span>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

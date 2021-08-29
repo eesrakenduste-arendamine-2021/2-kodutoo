@@ -1,0 +1,219 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(153,121,85);
+    background: linear-gradient(177deg, rgba(153,121,85,1) 0%, rgba(102,19,49,1) 62%, rgba(84,26,112,1) 100%);
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+}
+a:hover {
+    font-weight: bold;
+}
+
+p, a, li {
+    font-size: 110%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10% 5% 10%;
+    padding: 0 5px;
+    padding-bottom: 30px;
+    background-color: rgb(231, 214, 191);
+    border-radius: 5px;
+    -webkit-box-shadow: 6px 4px 14px 0px rgba(31,31,31,0.6);
+    -moz-box-shadow: 6px 4px 14px 0px rgba(31,31,31,0.6);
+    box-shadow: 6px 4px 14px 0px rgba(31, 31, 31, 0.6);
+}
+
+section li, ul {
+    list-style: none;
+    padding: 0;
+}
+
+#game, #tutorial {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    margin: 0;
+    margin-bottom: 10%;
+}
+
+#tutorial div {
+    border: 5px dashed rgb(223, 165, 148);
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+}
+
+body h1 {
+    position: relative;
+    z-index: 9999;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(231, 214, 191);
+    text-shadow: 3px 3px 0px #6d2c22, 
+        6px 6px 0px #652a7c, 
+        9px 9px 0px #052939, 
+        12px 12px 0px #972743;
+}
+
+#score, #highestScore {
+    transition: all 0.3s;
+}
+
+#userScores {
+    display: grid;
+    width: 512px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#userScores * {
+    background: rgb(207, 181, 145);
+    border-radius: 5px;
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 150%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.4s;
+    width: 512px;
+    background-color:rgb(128, 67, 89);
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:hover, button:focus {
+    background-color: rgb(107, 56, 148);
+    cursor: pointer;
+    transform: scale(1.01);
+    -webkit-box-shadow: -1px 18px 5px -9px rgb(49, 7, 70);
+    -moz-box-shadow: -1px 18px 5px -9px rgb(49, 7, 70);
+    box-shadow: -1px 18px 5px -9px rgb(49, 7, 70);
+    outline: none;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+section h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#tutorial {
+    margin-top: 10%;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(221, 148, 126);
+    line-height: 1.5;
+    font-size: 100%;
+}
+
+#tutorial h2 span {
+    color:rgb(231, 214, 191);
+}
+
+#showUsername {
+    font-size: 90%;
+    color: rgb(207, 181, 145);
+    padding: 1% 0 0 0;
+}
+
+#scoreboard td {
+    padding: 5px 50px;
+}
+
+#forkongithub a {
+    font-family: 'Press Start 2P', cursive;
+    background:rgba(102,19,49,1);color:rgb(231, 214, 191);
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    padding:15px 60px;
+    font-size:0.7rem;
+    line-height:2rem;
+    position:relative;
+    transition:0.5s;
+}
+#forkongithub a:hover {
+    background:#652a7c;
+    color:#fff;
+}
+#forkongithub a::before,#forkongithub a::after {
+    content:"";
+    width:100%;
+    display:block;
+    position:absolute;
+    top:1px;
+    left:0;
+    height:1px;
+    background:#fff;
+}
+#forkongithub a::after {
+    bottom:1px;
+    top:auto;
+}
+@media only screen and (max-width: 1024px) {
+    body h1 {
+    font-size: 150%;
+    }
+    #scoreboard td {
+        padding: 5px 20px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    #forkongithub {
+        position:absolute;
+        display:block;
+        top:0;
+        left:0;
+        width:200px;
+        overflow:hidden;
+        height:200px;
+        z-index:999;
+    }
+    #forkongithub a {
+        padding:5px 40px;
+        width:200px;
+        position:absolute;
+        top:60px;left:-60px;
+        transform:rotate(-45deg);
+        -webkit-transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);
+        -moz-transform:rotate(-45deg);
+        -o-transform:rotate(-45deg);
+        box-shadow:4px 4px 10px rgba(0,0,0,0.8);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    canvas, #userScores, button, #showUsername {
+        max-width: 100%;
+    }
+    section{
+        margin: 0 5% 5% 5%;
+    }
+    #tutorial {
+        font-size: 90%;
+    }
+}
